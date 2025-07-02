@@ -30,7 +30,6 @@
   margin: 0 auto;
   padding:0 20px;
   z-index:99;
-  flex-wrap: wrap;
 }
 
 .nav-center-logo {
@@ -2314,3 +2313,194 @@
 .cta-btn:hover {
   background-color: #064a1c;
 }
+
+.services-section {
+  padding: 80px 20px;
+  background-color: #f4f9f7;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.services-title {
+  font-size: 2rem;
+  color: #0B5823;
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-inline: auto;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.service-card {
+  background-color: #fff;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  text-align: start;
+  transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  background-color: #0B5823;
+  color: white;
+  font-size: 2rem;
+  padding: 15px;
+  border-radius: 50%;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.service-card:nth-child(1) .service-icon{
+  background:white;
+}
+.service-card:nth-child(1) .service-icon i {
+  color:black;
+}
+.service-card:nth-child(1){
+  background:yellow;
+}
+
+.service-card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.service-card p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
+}
+
+.plans-section {
+  padding: 80px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.plans-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.section-subtitle {
+  color: #0B5823;
+  font-weight: bold;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.section-title {
+  font-size: 3rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.section-description {
+  max-width: 700px;
+  margin: 0 auto 50px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+.plans-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.plan-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 20px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  transition: transform 0.3s ease;
+}
+
+.plan-card:hover {
+  transform: translateY(-5px);
+}
+
+.plan-title {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #0B5823;
+}
+
+.plan-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.plan-price span {
+  font-size: 1rem;
+  color: #888;
+}
+
+.plan-highlight {
+  font-weight: bold;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.plan-description {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.plan-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.plan-features li {
+  margin-bottom: 10px;
+  color: #0B5823;
+  font-size: 0.95rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.plan-features i {
+  font-size: 1.2rem;
+}
+
+.plan-btn {
+  background-color: #0B5823;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 60%;
+  transition: background 0.3s ease;
+}
+
+.plan-btn:hover {
+  background-color: #064a1c;
+}
+
