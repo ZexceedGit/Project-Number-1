@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foundation</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="website.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="logof.png">
+</head>
+<body >
+<header class="navbar">
+  <div class="nav-container">
+    <div class="nav-left-space"></div>
+
+    <div class="nav-center-logo">
+      <div class="logoCircle">
+        <img src="logof.png" alt="Logo" class="logo-img">
+      </div>
+      <span class="logo-text">Foundation</span>
+    </div>
+
+    <div class="hamburger" id="hamburger">
+      <i class='bx bx-menu'></i>
+    </div>
+
+    <nav class="nav-links" id="navLinks">
+      <a href="index.html">Home</a>
+      <a href="#">About</a>
+      <a href="#" class="active">Services</a>
+      <a href="contact.html">Contact</a>
+      <div class="nav-icons mobile-icons">
+        <i class='bx bx-search'></i>
+        <i class='bx bx-heart'></i>
+        <i class='bx bx-cart'></i>
+        <i class='bx bx-user'></i>
+      </div>
+    </nav>
+
+    <div class="nav-icons desktop-icons">
+      <i class='bx bx-search'></i>
+      <i class='bx bx-heart'></i>
+      <i class='bx bx-cart'></i>
+      <i class='bx bx-user'></i>
+    </div>
+
+    <div class="nav-right-space"></div>
+  </div>
+</header>
+ 
+<div class="contact-header">
+    <h2>Our Service <i class='bx bx-award'></i></h2>
+    <p>Discover our comprehensive services, meticulously crafted to meet your needs with unparalleled quality and dedication.</p>
+</div>
+  <section class="services-section">
+  <div class="services-container">
+    <h2 class="services-title">Our service is to make your life easier, better, and stylish</h2>
+
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="service-icon"><i class='bx bx-paint'></i></div>
+        <h3 class="service-card-title">Interior Design</h3>
+        <p>We craft personalized interior designs that match your style and budget.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class='bx bx-rocket'></i></div>
+        <h3 class="service-card-title">Fast Delivery</h3>
+        <p>Get your furniture delivered quickly, safely, and on schedule.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class='bx bx-wrench'></i></div>
+        <h3 class="service-card-title">Custom Builds</h3>
+        <p>We build furniture tailored to your space and functionality needs.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class='bx bx-chat'></i></div>
+        <h3 class="service-card-title">Consultation</h3>
+        <p>Discuss your ideas and let our experts bring your vision to life.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class='bx bx-leaf'></i></div>
+        <h3 class="service-card-title">Eco-Friendly</h3>
+        <p>We use sustainable materials and eco-conscious practices.</p>
+      </div>
+
+      <div class="service-card">
+        <div class="service-icon"><i class='bx bx-support'></i></div>
+        <h3 class="service-card-title">Customer Support</h3>
+        <p>We’re here to help you every step of the way—any time, any day.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="plans-section">
+  <div class="plans-container">
+    <p class="section-subtitle">Package Delivery</p>
+    <h2 class="section-title">Choose the right plan for your needs</h2>
+    <p class="section-description">
+      We offer flexible and reliable delivery packages to suit your lifestyle or business. Whether you're just starting out or need robust delivery options—we’ve got you covered.
+    </p>
+
+    <div class="plans-grid">
+      <div class="plan-card">
+        <h3 class="plan-title">Basic Plan</h3>
+        <div class="plan-price">$19<span>/mo</span></div>
+        <p class="plan-highlight">For individuals & casual use</p>
+        <p class="plan-description">Perfect for one-time or small-scale deliveries.</p>
+        <ul class="plan-features">
+          <li><i class='bx bx-check-circle'></i> 5 Deliveries per month</li>
+          <li><i class='bx bx-check-circle'></i> Tracking included</li>
+          <li><i class='bx bx-check-circle'></i> Email Support</li>
+        </ul>
+        <button class="plan-btn">Choose Basic</button>
+      </div>
+
+      <div class="plan-card">
+        <h3 class="plan-title">Premium Plan</h3>
+        <div class="plan-price">$39<span>/mo</span></div>
+        <p class="plan-highlight">Ideal for small businesses</p>
+        <p class="plan-description">More deliveries, priority support and better tools.</p>
+        <ul class="plan-features">
+          <li><i class='bx bx-check-circle'></i> 20 Deliveries per month</li>
+          <li><i class='bx bx-check-circle'></i> Real-time Tracking</li>
+          <li><i class='bx bx-check-circle'></i> 24/7 Support</li>
+        </ul>
+        <button class="plan-btn">Choose Premium</button>
+      </div>
+
+      <div class="plan-card">
+        <h3 class="plan-title">Corporate Plan</h3>
+        <div class="plan-price">$99<span>/mo</span></div>
+        <p class="plan-highlight">For enterprises & high-volume senders</p>
+        <p class="plan-description">Unlimited capabilities tailored for your company.</p>
+        <ul class="plan-features">
+          <li><i class='bx bx-check-circle'></i> Unlimited Deliveries</li>
+          <li><i class='bx bx-check-circle'></i> Dedicated Account Manager</li>
+          <li><i class='bx bx-check-circle'></i> Custom Integrations</li>
+        </ul>
+        <button class="plan-btn">Choose Corporate</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-left">
+      <div class="footer-logo">
+      <div class="logoCircle">
+      <img src="logof.png" alt="Logo" class="logo-img">
+      </div>
+      <span class="logo-text">Furniture</span>      </div>
+      <p>Your trusted store for modern furniture and timeless pieces for every home.</p>
+      <div class="footer-socials">
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-pinterest'></i></a>
+      </div>
+    </div>
+
+    <div class="footer-links">
+      <div class="footer-column">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Support</h4>
+        <ul>
+          <li><a href="#">Help Center</a></li>
+          <li><a href="#">Contact Us</a></li>
+          <li><a href="#">Order Tracking</a></li>
+          <li><a href="#">Returns</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="#">Living Room</a></li>
+          <li><a href="#">Bedroom</a></li>
+          <li><a href="#">Dining</a></li>
+          <li><a href="#">Office</a></li>
+        </ul>
+      </div>
+      <div class="footer-column">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Use</a></li>
+          <li><a href="#">Cookies</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+
+
+<script src="website.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js" ></script>
+
+   
+</body>
+</html>
